@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://stagingrds.mysql.rds.aliyuncs.com:3306/data_stats_test?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf8
+    username: dss_test
+    password: hT6L#aGsZuC2
+
+feign:
+  okhttp:
+    enabled: true
+
+mybatis-plus:
+  mapper-locations: classpath*:mappers/*.xml
+  type-aliases-package: com.example.web.entity
+  check-config-location: true
+  global-config:
+    db-config:
+      id-type: auto
