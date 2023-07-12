@@ -1,4 +1,4 @@
-package com.example.rocketmq;
+package com.example.rocketmq.base;
 
 /**
  * @author zyc

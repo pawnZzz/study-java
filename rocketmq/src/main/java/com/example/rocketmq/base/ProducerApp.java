@@ -1,4 +1,4 @@
-package com.example.rocketmq;
+package com.example.rocketmq.base;
 
 
 import org.apache.rocketmq.client.exception.MQBrokerException;
